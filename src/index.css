@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #212529 !important;
+}
+thead .tr th {
+  color: #0dcaf0;
+}
+.table {
+  min-width: 32rem;
+}
+
