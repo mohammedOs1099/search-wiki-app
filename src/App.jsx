@@ -48,6 +48,8 @@ function App() {
       const debounce = setTimeout(() => search(), 500);
 
       return () => clearTimeout(debounce);
+    } else {
+      setResult([])
     }
   }, [term]);
 

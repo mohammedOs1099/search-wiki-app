@@ -3,7 +3,7 @@ import { Form } from "react-bootstrap";
 export default function Input({ term, handelChange }) {
   return (
     <>
-      <Form>
+      <div >
         <Form.Group className="m-3  " controlId="formBasicEmail">
           <Form.Control
             value={term}
@@ -15,7 +15,7 @@ export default function Input({ term, handelChange }) {
             placeholder="Search wiki"
           />
         </Form.Group>
-      </Form>
+      </div>
     </>
   );
 }
